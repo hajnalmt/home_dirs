@@ -1,5 +1,3 @@
-
-
 ### Mandatory
 # Trackers
 .bash_history
@@ -17,11 +15,7 @@
 
 # Ignore everything in home on master branch
 # This is changing on other branches
-.bash_profile
-.bashrc
 .gitconfig
-.inputrc
-.profile
 .ssh/*
 .ssh/authorized_keys
 .ssh/known_host
