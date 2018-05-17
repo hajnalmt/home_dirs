@@ -9,7 +9,7 @@ one checkout cygwin64_mine branch.
 If you have already made the git setup written in master branch.
 There are some things it's good for you to add in cygwin.
 
-# git commit, vim Warning
+### git commit, vim Warning
 To avoid vim terminal Warning-s at git commits.
 Issue:
 ```
