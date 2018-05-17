@@ -74,8 +74,9 @@ Good Luck!
 ## Authors
 * **Mate Hajnal** - *Initial work* - [hajnalmt](https://github.com/hajnalmt)
 
-See also the list of [contributors](https://github.com/hajnalmt/home_\
-dirs/graphs/contributors) who participated in this project.
+See also the list of
+[contributors](https://github.com/hajnalmt/home_dirs/graphs/contributors)
+who participated in this project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE)
