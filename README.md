@@ -1,75 +1,30 @@
-# Version Control your Home Directories
+# Cygwin64 related branch
 The reason I created this repository that I got really tired of making all my
 home directories on different linux distributions.
 
-The master branch contains only the things which I use on every distribution.
-Each Other branches contain the things which I use on that distro.
-This way I just need to checkout that branch if I get a plain new machine. 
+This branch contains the cygwin64 related general files. To check my personal
+one checkout cygwin64_mine branch.
 
 ## Getting started
-When you get a new plain home directory somewhere just clone this repository
-out and move everything to your home directory's root folder.
+If you have already made the git setup written in master branch.
+There are some things it's good for you to add in cygwin.
 
-As of the fact, that it's a plain directory you even don't have your ssh keys
- generated.
-I will use id_rsa now.
-
-To Generate one:
+To avoid vim terminal WARNING-s at git commits.
+Issue:
 ```
-ssh-keygen -t rsa -b 4096 -N '' -C "your_email@host.domain" -f ~/.ssh/id_rsa
+git commit
+Vim warning: output is not to a terminal
+Vim warning: input is not from a terminal
 ```
+Use the cygwin bash.exe instead of the mintty.exe:
+1. Right click on the shortcut of czgwin, change it from
+<code>C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico</code> - to
+<code>C:\cygwin64\bin\bash.exe --login -i</code>
+2. Add the correct vim path to git config:
+<code>git config --global core.editor "C:/cygwin64/bin/vim.exe"</code>
 
-If you have an ssh key somewhere, just copy it to the right place, rewriting
-the id_rsa and id_rsa.pub files.
+Note: Note that don't use <code>cygdrive</code> in the path as <code>.gitconfig</code> can't recognize it. And if you are using 32-bit vim, then the path should be <code>C:/cygwin/bin/</code>
 
-
-Do not forget to add the right permissions to the folders.
-
-```
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/id_rsa
-chmod 644 ~/.ssh/id_rsa.pub
-```
-
-After your id_rsa.pub file has been added to your github account, then you
-are able to clone the repo out.
-
-I suggest cloning out the repo into your home directory's root folder.
-
-```
-git clone git@github.com:your_username/home_dirs.git .
-```
-
-That's all now you can checkout the branhch of the distros you want,
-setup your distro on a new branch, or modify earliers!
-Have Fun!
-
-## Nice to know
-I use vim as my default editor, so on the machine there should be vim and
-ssh installed. 
-The repo contains a .vimrc, to have a something to edit the commit files.
-
-Also I like to config my global git settings immediately.
-```
-git config --global user.name "Your Name"
-git config --global user.email your_email@host.domain
-git config --global core.editor vim
-```
-
-It can happen that you have cloned your repository via HTTPS, I recommend
-using SSH instead.
-You can check the connection with the command:
-```
-ssh -vT git@github.com
-```
-
-And if maybe you have used HTTPS switch to SSH with:
-```
-git remote remove origin
-git remote add origin git@github.com:hajnalmt/home_dirs.git
-git branch --set-upstream-to origin/master
-```
-Good Luck!
 
 ## Authors
 * **Mate Hajnal** - *Initial work* - [hajnalmt](https://github.com/hajnalmt)
