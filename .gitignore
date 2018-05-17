@@ -1,2 +1,11 @@
 .bash_history
 .viminfo
+
+# SSH RSA related
+.ssh/id_rsa.pub
+.ssh/id_rsa
+.ssh/github_rsa
+.ssh/github_rsa.pub
+.ssh/mozilla_rsa
+.ssh/.mozilla_rsa.pub
+
