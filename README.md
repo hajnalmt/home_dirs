@@ -72,9 +72,9 @@ git branch --set-upstream-to origin/master
 Good Luck!
 
 ## Authors
-* ** Mate Hajnal** - *Initial work* - [hajnalmt](https://github.com/hajnalmt)
+* **Mate Hajnal** - *Initial work* - [hajnalmt](https://github.com/hajnalmt)
 
-See also the list of [contributors](https://github.com/hajnalmt/home_
+See also the list of [contributors](https://github.com/hajnalmt/home_\
 dirs/graphs/contributors) who participated in this project.
 
 ## License
