@@ -9,7 +9,7 @@
 .ssh/github_rsa
 .ssh/github_rsa.pub
 .ssh/mozilla_rsa
-.ssh/.mozilla_rsa.pub
+.ssh/mozilla_rsa.pub
 
 ### Mandatory
 
