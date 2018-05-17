@@ -15,8 +15,3 @@
 
 # Ignore everything in home on master branch
 # This is changing on other branches
-.gitconfig
-.ssh/*
-.ssh/authorized_keys
-.ssh/known_host
-.ssh/config

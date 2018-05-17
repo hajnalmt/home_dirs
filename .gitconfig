@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Mate Hajnal
+#	email = mate.hajnal@flex.com
+[user]
+	name = Mate Hajnal
+	email = hajnalmt@gmail.com
+[core]
+	editor = C:/cygwin64/bin/vim.exe
