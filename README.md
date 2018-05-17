@@ -24,7 +24,7 @@ Use the cygwin bash.exe instead of the mintty.exe:
 2. Add the correct vim path to git config:
 <code>git config --global core.editor "C:/cygwin64/bin/vim.exe"</code>
 
-Note: Note that don't use <code>cygdrive</code> in the path as <code>.gitconfig</code> can't recognize it. And if you are using 32-bit vim, then the path should be <code>C:/cygwin/bin/</code>
+Note that don't use <code>cygdrive</code> in the path as <code>.gitconfig</code> can't recognize it. And if you are using 32-bit vim, then the path should be <code>C:/cygwin/bin/</code>
 
 
 ## Authors
