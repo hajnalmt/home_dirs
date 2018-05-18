@@ -34,10 +34,16 @@ chmod 644 ~/.ssh/id_rsa.pub
 After your id_rsa.pub file has been added to your github account, then you
 are able to clone the repo out.
 
-I suggest cloning out the repo into your home directory's root folder.
+I suggest cloning out the repo into a new directory and then after
+checking out the branch you want to use then move everything to your home
+directory's root folder.
 
 ```
-git clone git@github.com:your_username/home_dirs.git .
+cd ~/
+git clone git@github.com:your_username/home_dirs.git ./
+cd home_dirs
+git checkout -b <distro_branch_name> origin/<distro_branch_name>
+mv ./* ../
 ```
 
 That's all now you can checkout the branhch of the distros you want,
@@ -54,6 +60,7 @@ Also I like to config my global git settings immediately.
 git config --global user.name "Your Name"
 git config --global user.email your_email@host.domain
 git config --global core.editor vim
+git config --global core.autocrlf false
 ```
 
 It can happen that you have cloned your repository via HTTPS, I recommend
