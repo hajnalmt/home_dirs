@@ -11,7 +11,11 @@
 #   -> Tmux
 ##############################################################################
 
-# General
+# Work related
+projects/*
+workspace/*
+temp/*
+
 # Ignore everything in home on master branch
 # This is changing on other branches
 .sudo_as_admin_successful
@@ -31,6 +35,7 @@
 # SSH
 .ssh
 .ssh/*
+<<<<<<< HEAD
 
 # Git
 .gitconfig
