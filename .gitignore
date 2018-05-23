@@ -18,5 +18,10 @@
 
 ### Mandatory
 
+# Work related
+projects/*
+workspace/*
+temp/*
+
 # Ignore everything in home on master branch
 # This is changing on other branches
