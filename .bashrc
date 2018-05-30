@@ -75,7 +75,6 @@ COMP_TAR_INTERNAL_PATHS=1
 ###################
 # History Options #
 ###################
-
 # Don't put duplicate lines in the history.
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 
