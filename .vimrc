@@ -1,6 +1,31 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This is the ultimate vim configuration mostly written by
+" Amir Salihefendic
+"
+" Sections:
+"    -> General
+"    -> VIM user interface
+"    -> Colors and Fonts
+"    -> Files and backups
+"    -> Text, tab and indent related
+"    -> Visual mode related
+"    -> Moving around, tabs and buffers
+"    -> Status line
+"    -> Editing mappings
+"    -> vimgrep searching and cope displaying
+"    -> Spell checking
+"    -> Misc
+"    -> Helper functions
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+scriptencoding utf-8
+set encoding=utf-8
+
 " Sets how many lines of history VIM has to remember
 set history=700
 
