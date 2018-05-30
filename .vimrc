@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " This is the ultimate vim configuration mostly written by
-" Amir Salihefendic
+" Amir Salihefendic modified bz Mate Hajnal
 "
 " Sections:
 "    -> General
@@ -22,7 +22,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+" Sets character enconding of the script and vim too
 scriptencoding utf-8
 set encoding=utf-8
 
@@ -49,7 +49,6 @@ filetype indent on
 
 " Set to auto read when a file is changed from the outside
 set autoread
-
 
 " Always show current position
 set ruler
