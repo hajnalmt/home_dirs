@@ -20,11 +20,7 @@ git commit
 Vim warning: output is not to a terminal
 Vim warning: input is not from a terminal
 ```
-Use the cygwin bash.exe instead of the mintty.exe:
-1. Right click on the shortcut of czgwin, change it from
-<code>C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico</code> - to
-<code>C:\cygwin64\bin\bash.exe --login -i</code>
-2. Add the correct vim path to git config:
+Add the correct vim path to git config:
 <code>git config --global core.editor "C:/cygwin64/bin/vim.exe"</code>
 
 Note that don't use <code>cygdrive</code> in the path as <code>.gitconfig</code> can't recognize it. And if you are using 32-bit vim, then the path should be <code>C:/cygwin/bin/</code>
