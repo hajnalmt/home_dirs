@@ -22,6 +22,9 @@
 projects/*
 workspace/*
 temp/*
+.vim_runtime/*
+.tmux/*
+
 
 # Ignore everything in home on master branch
 # This is changing on other branches
