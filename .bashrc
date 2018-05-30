@@ -25,8 +25,12 @@ else
   umask 007  # normal user
 fi
 
-# If not running interactively, don't do anything
-[[ "$-" != *i* ]] && return
+# HOMEDIR global variable
+if [[ "$(uname -a)" = *"Cygwin"* ]]; then
+    export HOMEDIR="$(cygpath -w ~)"
+else
+    export HOMEDIR=$HOME
+fi
 
 #################
 # Shell Options #
