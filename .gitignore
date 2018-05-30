@@ -1,9 +1,21 @@
-### Mandatory
+##############################################################################
+# General .gitignore file for home directories.
+# Written by Mate Hajnal
+# 
+# Sections:
+#   -> Trackers
+#   -> SSH
+#   -> Git
+#   -> General Work
+#   -> Vim
+#   -> Tmux
+##############################################################################
+
+
 # Trackers
 .bash_history
-.viminfo
 
-# SSH RSA related
+# SSH
 .ssh/authorized_keys
 .ssh/known_hosts
 .ssh/id_rsa.pub
@@ -13,18 +25,19 @@
 .ssh/mozilla_rsa
 .ssh/mozilla_rsa.pub
 
-# Git related
+# Git
 .gitconfig
 
-### Mandatory
-
-# Work related
+# Work
 projects/*
 workspace/*
 temp/*
+
+# Vim
 .vim_runtime/*
+.viminfo
+.cache/*
+.vim_mru_files
+
+# TMUX
 .tmux/*
-
-
-# Ignore everything in home on master branch
-# This is changing on other branches
