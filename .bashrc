@@ -25,13 +25,6 @@ else
   umask 007  # normal user
 fi
 
-# HOMEDIR global variable
-if [[ "$(uname -a)" = *"Cygwin"* ]]; then
-    export HOMEDIR="$(cygpath -w ~)"
-else
-    export HOMEDIR=$HOME
-fi
-
 #################
 # Shell Options #
 #################
