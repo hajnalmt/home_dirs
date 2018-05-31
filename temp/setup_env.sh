@@ -35,7 +35,6 @@ fi
 
 # Tmux Plugin Manager
 if [ ! -d "$HOME/.tmux" ]; then
-    git submodule add https://github.com/tmux-plugins/tpm\
+    git submodule add --force https://github.com/tmux-plugins/tpm\
         $HOME/.tmux/plugins/tpm
-    tmux source $HOME/.tmux.conf
 fi

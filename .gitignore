@@ -27,6 +27,7 @@
 
 # Git
 .gitconfig
+.gitmodules
 
 # Work
 projects/*
@@ -34,6 +35,7 @@ workspace/*
 temp/*
 
 # Vim
+.vim_runtime
 .vim_runtime/*
 .viminfo
 .vimrc
@@ -41,4 +43,5 @@ temp/*
 .vim_mru_files
 
 # TMUX
+.tmux
 .tmux/*
