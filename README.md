@@ -12,6 +12,11 @@ There are some things it's good for you to add in cygwin.
 #### My used packages
 Git, GVim, Expect, Rsync, Tmux, Tcl, Vim
 
+#### Install my little setup
+If you already installed the packages mentioned above, the start the
+<code>./temp/setup_env.sh</code>
+script and open a new terminal. It will do every work for you.
+
 #### Good to know
 ###### git commit, vim Warning
 If you do not install Git and you are using the default Windows one, then
@@ -25,7 +30,13 @@ Vim warning: input is not from a terminal
 To avoid it add the correct vim path to git config:
 <code>git config --global core.editor "C:/cygwin64/bin/vim.exe"</code>
 
-Note that don't use <code>cygdrive</code> in the path as <code>.gitconfig</code> can't recognize it. And if you are using 32-bit vim, then the path should be <code>C:/cygwin/bin/</code>
+Note that don't use <code>cygdrive</code> in the path as
+<code>.gitconfig</code> can't recognize it.
+And if you are using 32-bit vim, then the path should be
+<code>C:/cygwin/bin/</code>.
+Also the setup_env script will not work for you too since the repository
+cloning is not handled well with the Windows git... You should do the job
+manually.
 
 ## Authors
 * **Mate Hajnal** - *Initial work* - [hajnalmt](https://github.com/hajnalmt)
