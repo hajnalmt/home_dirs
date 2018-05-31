@@ -18,10 +18,10 @@ If you already installed the packages mentioned above, then start the
 script and open a new terminal. It will do every work for you.
 
 #### Good to know
-###### git commit, vim Warning
+###### git commit, vim warning
 If you do not install Git and you are using the default Windows one, then
-you will get some terminal warnigns with commiting. 
-Issue:
+you will get some terminal warnings while commiting. 
+Like:
 ```
 git commit
 Vim warning: output is not to a terminal
