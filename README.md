@@ -9,18 +9,20 @@ one checkout cygwin64_mine branch.
 If you have already made the git setup written in master branch.
 There are some things it's good for you to add in cygwin.
 
-## My used packages
-GVim, Expect, Rsync, Tmux, Tcl, Vim
+#### My used packages
+Git, GVim, Expect, Rsync, Tmux, Tcl, Vim
 
-### git commit, vim Warning
-To avoid vim terminal Warning-s at git commits.
+#### Good to know
+###### git commit, vim Warning
+If you do not install Git and you are using the default Windows one, then
+you will get some terminal warnigns with commiting. 
 Issue:
 ```
 git commit
 Vim warning: output is not to a terminal
 Vim warning: input is not from a terminal
 ```
-Add the correct vim path to git config:
+To avoid it add the correct vim path to git config:
 <code>git config --global core.editor "C:/cygwin64/bin/vim.exe"</code>
 
 Note that don't use <code>cygdrive</code> in the path as <code>.gitconfig</code> can't recognize it. And if you are using 32-bit vim, then the path should be <code>C:/cygwin/bin/</code>
