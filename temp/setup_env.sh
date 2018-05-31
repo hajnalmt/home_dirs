@@ -28,13 +28,15 @@ fi
 ###########
 # Awesome vimrc install
 if [ ! -d "$HOME/.vim_runtime" ]; then
-    git submodule add --depth=1 https://github.com/amix/vimrc.git\
+    git submodule add --force --depth=1 https://github.com/amix/vimrc.git\
         $HOME/.vim_runtime
     sh $HOME/.vim_runtime/install_awesome_vimrc.sh
+    git reset HEAD $HOME/.gitmodules $HOME/.vim_runtime
 fi
 
 # Tmux Plugin Manager
 if [ ! -d "$HOME/.tmux" ]; then
     git submodule add --force https://github.com/tmux-plugins/tpm\
         $HOME/.tmux/plugins/tpm
+    git reset HEAD $HOME/.gitmodules $HOME/.tmux
 fi
