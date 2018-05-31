@@ -28,14 +28,14 @@ fi
 ###########
 # Awesome vimrc install
 if [ ! -d "$HOME/.vim_runtime" ]; then
-    git clone --depth=1 https://github.com/amix/vimrc.git\
+    git submodule add --depth=1 https://github.com/amix/vimrc.git\
         $HOME/.vim_runtime
     sh $HOME/.vim_runtime/install_awesome_vimrc.sh
 fi
 
 # Tmux Plugin Manager
 if [ ! -d "$HOME/.tmux" ]; then
-    git clone https://github.com/tmux-plugins/tpm\
+    git submodule add https://github.com/tmux-plugins/tpm\
         $HOME/.tmux/plugins/tpm
     tmux source $HOME/.tmux.conf
 fi

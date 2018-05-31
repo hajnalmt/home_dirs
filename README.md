@@ -13,7 +13,7 @@ There are some things it's good for you to add in cygwin.
 Git, GVim, Expect, Rsync, Tmux, Tcl, Vim
 
 #### Install my little setup
-If you already installed the packages mentioned above, the start the
+If you already installed the packages mentioned above, then start the
 <code>./temp/setup_env.sh</code>
 script and open a new terminal. It will do every work for you.
 

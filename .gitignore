@@ -36,6 +36,7 @@ temp/*
 # Vim
 .vim_runtime/*
 .viminfo
+.vimrc
 .cache/*
 .vim_mru_files
 
