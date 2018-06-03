@@ -16,15 +16,17 @@
 # This is changing on other branches
 .sudo_as_admin_successful
 .bash_history
-.bash_profile
 .bash_logout
-.profile
-.inputrc
-.bashrc
 
 # SSH
-.ssh
-.ssh/*
+.ssh/authorized_keys
+.ssh/known_hosts
+.ssh/id_rsa.pub
+.ssh/id_rsa
+.ssh/github_rsa
+.ssh/github_rsa.pub
+.ssh/mozilla_rsa
+.ssh/mozilla_rsa.pub
 
 # Git
 .gitconfig

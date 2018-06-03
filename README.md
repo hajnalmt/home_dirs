@@ -1,4 +1,4 @@
-# Cygwin64 related branch
+# Ubuntu 16.04 related branch
 The reason I created this repository that I got really tired of making all my
 home directories on different linux distributions.
 
@@ -8,6 +8,14 @@ one checkout ubuntu1604_mine branch.
 ## Getting started
 If you have already made the git setup written in master branch, there is
 nothing else to do.
+
+#### My used packages
+Git, Expect, Tmux, Tcl, Vim
+
+#### Install my little setup
+If you already installed the packages mentioned above, then start the
+<code>./temp/setup_env.sh</code>
+script and open a new terminal. It will do every work for you.
 
 ## Authors
 * **Mate Hajnal** - *Initial work* - [hajnalmt](https://github.com/hajnalmt)
