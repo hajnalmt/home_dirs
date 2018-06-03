@@ -40,7 +40,8 @@ everything to your home directory's root folder.
 ```
 cd ~/
 git clone git@github.com:your_username/home_dirs.git ./
-mv home_dirs/* ./
+mv $(ls -A home_dirs/) .
+rm -rf home_dirs/
 ```
 
 That's all now you can checkout the branch of the distros you want,
