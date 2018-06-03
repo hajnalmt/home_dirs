@@ -3,17 +3,20 @@
 # Written by Mate Hajnal
 # 
 # Sections:
-#   -> Trackers
+#   -> General
 #   -> SSH
 #   -> Git
-#   -> General Work
+#   -> Work
 #   -> Vim
 #   -> Tmux
 ##############################################################################
 
-
-# Trackers
+# General
+# Ignore everything in home on master branch
+# This is changing on other branches
+.sudo_as_admin_successful
 .bash_history
+.bash_logout
 
 # SSH
 .ssh/authorized_keys
