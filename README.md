@@ -1,4 +1,4 @@
-# Cygwin64 related branch
+# Ubuntu 16.04 related branch
 The reason I created this repository that I got really tired of making all my
 home directories on different linux distributions.
 
