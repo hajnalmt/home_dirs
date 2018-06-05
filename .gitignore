@@ -38,6 +38,7 @@ workspace/*
 temp/*
 
 # Vim
+.vim/*
 .vim_runtime
 .vim_runtime/*
 .viminfo
