@@ -10,7 +10,7 @@ If you have already made the git setup written in master branch.
 There are some things it's good for you to add in cygwin.
 
 #### My used packages
-Git, GVim, Expect, Rsync, Tmux, Tcl, Vim
+Git, GVim, Expect, Rsync, Nc, Tmux, Tcl, Vim
 
 #### Install my little setup
 If you already installed the packages mentioned above, then start the
