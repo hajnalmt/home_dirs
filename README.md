@@ -39,8 +39,8 @@ everything to your home directory's root folder.
 
 ```
 cd ~/
-git clone git@github.com:your_username/home_dirs.git ./
-mv $(ls -A home_dirs/) .
+git clone git@github.com:your_username/home_dirs.git
+mv ./home_dirs/* ./home_dirs/.* .
 rm -rf home_dirs/
 ```
 
