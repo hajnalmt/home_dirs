@@ -116,9 +116,6 @@ alias ll='ls -l'                              # long list
 alias la='ls -A'                              # all but . and ..
 alias l='ls -CF'                              #
 
-# Git shorcuts
-alias git lall='git log --graph --oneline --all'
-
 #############
 # FUNCTIONS #
 #############
@@ -147,3 +144,12 @@ rcPrompt() {
     fi
 }
 PROMPT_COMMAND=rcPrompt
+
+# Define Git two words aliases
+git() {
+    if [[ $@ == "lall" ]]; then
+        command git log --graph --oneline --all
+    else
+        command git "$@"
+    fi
+}
