@@ -116,6 +116,8 @@ alias ll='ls -l'                              # long list
 alias la='ls -A'                              # all but . and ..
 alias l='ls -CF'                              #
 
+# Git shorcuts
+alias git lall='git log --graph --oneline --all'
 
 #############
 # FUNCTIONS #
