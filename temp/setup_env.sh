@@ -30,6 +30,7 @@ fi
 if [ ! -d "$HOME/.vim_runtime" ]; then
     git submodule add --force --depth=1 https://github.com/amix/vimrc.git\
         $HOME/.vim_runtime
+    chmod +x $HOME/.vim_runtime/install_awesome_vimrc.sh
     sh $HOME/.vim_runtime/install_awesome_vimrc.sh
     git reset HEAD $HOME/.gitmodules $HOME/.vim_runtime
 fi
