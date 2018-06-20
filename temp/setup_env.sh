@@ -32,12 +32,10 @@ if [ ! -d "$HOME/.vim_runtime" ]; then
         $HOME/.vim_runtime
     chmod +x $HOME/.vim_runtime/install_awesome_vimrc.sh
     sh $HOME/.vim_runtime/install_awesome_vimrc.sh
-    git reset HEAD $HOME/.gitmodules $HOME/.vim_runtime
 fi
 
 # Tmux Plugin Manager
 if [ ! -d "$HOME/.tmux" ]; then
     git submodule add --force https://github.com/tmux-plugins/tpm\
         $HOME/.tmux/plugins/tpm
-    git reset HEAD $HOME/.gitmodules $HOME/.tmux
 fi
