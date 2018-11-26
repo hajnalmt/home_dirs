@@ -42,3 +42,4 @@ fi
 if [ -d "${HOME}/info" ]; then
     INFOPATH="${HOME}/info:${INFOPATH}"
 fi
+alias nmap="/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe"
