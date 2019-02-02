@@ -21,12 +21,14 @@
 # SSH
 .ssh/authorized_keys
 .ssh/known_hosts
-.ssh/id_rsa.pub
 .ssh/id_rsa
+.ssh/id_rsa.pub
 .ssh/github_rsa
 .ssh/github_rsa.pub
 .ssh/mozilla_rsa
 .ssh/mozilla_rsa.pub
+.ssh/deto_scw_id_rsa
+.ssh/deto_scw_id_rsa.pub
 
 # Git
 .gitconfig
