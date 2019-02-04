@@ -16,6 +16,7 @@
 # This is changing on other branches
 .sudo_as_admin_successful
 .bash_history
+.python_history
 .bash_logout
 
 # SSH
