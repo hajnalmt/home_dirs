@@ -22,7 +22,6 @@ ssh-keygen -t rsa -b 4096 -N '' -C "your_email@host.domain" -f ~/.ssh/id_rsa
 If you have an ssh key somewhere, just copy it to the right place, rewriting
 the id_rsa and id_rsa.pub files.
 
-
 Do not forget to add the right permissions to the folders.
 
 ```
@@ -51,7 +50,7 @@ Have Fun!
 ## Nice to know
 I use vim as my default editor, so on the machine there should be vim and
 ssh installed. 
-The repo contains a .vimrc, to have a something to edit the commit files.
+The repo contains a .vimrc, to have something to edit the commit files.
 
 Also I like to config my global git settings immediately.
 ```
