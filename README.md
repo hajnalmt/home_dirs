@@ -1,10 +1,10 @@
 # Version Control your Home Directories
-The reason I created this repository that I got really tired of making all my
-home directories on different linux distributions.
+The reason I have created this repository is, that I got really tired of
+making all my home directories on different linux distributions.
 
 The master branch contains only the things which I use on every distribution.
 Each Other branches contain the things which I use on that distro.
-This way I just need to checkout that branch if I get a plain new machine. 
+This way I just need to checkout that branch if I get a plain new machine.
 
 ## Getting started
 When you get a new plain home directory somewhere just clone this repository
@@ -21,6 +21,8 @@ ssh-keygen -t rsa -b 4096 -N '' -C "your_email@host.domain" -f ~/.ssh/id_rsa
 
 If you have an ssh key somewhere, just copy it to the right place, rewriting
 the id_rsa and id_rsa.pub files.
+The .gitignore contains the rsa exceptions, so you don't need to be worried
+about accidentally adding them to version control system of yours.
 
 Do not forget to add the right permissions to the folders.
 
@@ -42,6 +44,13 @@ git clone git@github.com:your_username/home_dirs.git
 mv ./home_dirs/* ./home_dirs/.* .
 rm -rf home_dirs/
 ```
+
+For the mv command it's possible that you get some errors that say:
+```
+mv: stat './home_dirs/*' unsuccessfull: No such file or directory
+mv: stat './home_dirs/.*' unsuccessfull: No such file or directory
+```
+Don't bother with it, it will work anyway.
 
 That's all now you can checkout the branch of the distros you want,
 setup your distro on a new branch, or modify earliers!
