@@ -30,7 +30,8 @@
 .ssh/mozilla_rsa.pub
 .ssh/deto_scw_id_rsa
 .ssh/deto_scw_id_rsa.pub
-# Generally everz rsa, dsa related
+.ssh/rootkey.csv
+# Generally every rsa, dsa related
 .ssh/*rsa*
 .ssh/*dsa*
 .ssh/*.pem
