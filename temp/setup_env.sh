@@ -33,6 +33,9 @@ if [ ! -d "$HOME/.vim_runtime" ]; then
     chmod +x $HOME/.vim_runtime/install_awesome_vimrc.sh
     sh $HOME/.vim_runtime/install_awesome_vimrc.sh
     git reset HEAD $HOME/.gitmodules $HOME/.vim_runtime
+
+    # Copy my additional vim config to the awesome one.
+    cp $HOME/temp/vim/my_configs.vim $HOME/.vim_runtime/
 fi
 
 # Tmux Plugin Manager
