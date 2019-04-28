@@ -59,3 +59,6 @@ temp/*
 # TMUX
 .tmux
 .tmux/*
+
+# Other programs
+.sbt/*
