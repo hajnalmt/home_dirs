@@ -39,6 +39,7 @@
 # Git
 .gitconfig
 .gitmodules
+.git-credentials
 
 # Work
 projects/*
