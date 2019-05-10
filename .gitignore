@@ -45,6 +45,7 @@
 projects/*
 workspace/*
 temp/*
+.sbt/*
 
 # Vim
 .vim/*
