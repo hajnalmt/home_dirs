@@ -62,3 +62,11 @@ temp/*
 
 # Other programs
 .sbt/*
+
+# Delete compress and lynx install
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+setup.ini*
+apt-cyg
+desc
