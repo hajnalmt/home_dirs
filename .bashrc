@@ -149,6 +149,8 @@ PROMPT_COMMAND=rcPrompt
 git() {
     if [[ $@ == "lall" ]]; then
         command git log --graph --oneline --all
+    elif [[ $@ == "pls" ]]; then
+	command git add -A; git commit --amend --no-edit; git push -f;
     else
         command git "$@"
     fi
