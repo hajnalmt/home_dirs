@@ -43,3 +43,13 @@ if [ -d "${HOME}/info" ]; then
     INFOPATH="${HOME}/info:${INFOPATH}"
 fi
 alias nmap="/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe"
+
+alias pls="!f(){ \
+    git add -A; \
+    if [ \"$1\" == '' ]; then \
+        git commit --amend --no-edit; \
+    else \
+        git commit --amend \"$@\"; \
+    fi; \
+    git push -f \
+}; f"
