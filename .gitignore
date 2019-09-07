@@ -70,3 +70,11 @@ temp/*
 setup.ini*
 apt-cyg
 desc
+
+# My general things
+.Xauthority
+.config/
+.dbus/
+.xsession-errors
+nfs-backup/
+rancher-server-mysql-backup/
