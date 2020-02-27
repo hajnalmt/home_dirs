@@ -18,6 +18,15 @@
 .bash_history
 .python_history
 .bash_logout
+.profile
+.inputrc
+.bashrc
+.ICEauthority
+.esd_auth
+.config/*
+.local/*
+.mozilla/*
+.vboxclient*
 
 # SSH
 .ssh/authorized_keys
