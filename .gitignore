@@ -21,6 +21,12 @@
 .profile
 .inputrc
 .bashrc
+.ICEauthority
+.esd_auth
+.config/*
+.local/*
+.mozilla/*
+.vboxclient*
 
 # SSH
 .ssh
