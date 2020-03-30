@@ -155,3 +155,4 @@ git() {
         command git "$@"
     fi
 }
+export DOCKER_HOST=tcp://localhost:2375

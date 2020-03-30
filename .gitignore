@@ -81,7 +81,7 @@ tmp
 # Delete compress and lynx install
 *.tar.gz
 *.tar.xz
-    *.tar.bz2
+*.tar.bz2
 setup.ini*
 apt-cyg
 desc
@@ -93,3 +93,7 @@ desc
 .xsession-errors
 nfs-backup/
 rancher-server-mysql-backup/
+.gnupg/
+.thunderbird/
+examples.desktop
+snap/
