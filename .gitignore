@@ -44,6 +44,8 @@
 .ssh/*rsa*
 .ssh/*dsa*
 .ssh/*.pem
+.ssh/*
+!.ssh/config
 
 # Git
 .gitconfig
