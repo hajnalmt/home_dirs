@@ -53,9 +53,13 @@
 .git-credentials
 
 # Work
-projects/*
-workspace/*
-temp/*
+projects/
+workspace/
+tmp/
+temp/
+projects
+workspace
+tmp
 .sbt/*
 
 # Vim
@@ -77,7 +81,7 @@ temp/*
 # Delete compress and lynx install
 *.tar.gz
 *.tar.xz
-*.tar.bz2
+    *.tar.bz2
 setup.ini*
 apt-cyg
 desc

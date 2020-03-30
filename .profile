@@ -26,6 +26,9 @@
 # Set user-defined locale
 export LANG=$(locale -uU)
 
+# Add .local/bin to PATH
+export PATH="$PATH:$HOME/.local/bin"
+
 # This file is not read by bash(1) if ~/.bash_profile or ~/.bash_login
 # exists.
 #
