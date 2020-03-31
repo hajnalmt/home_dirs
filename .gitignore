@@ -52,3 +52,9 @@ temp/*
 # TMUX
 .tmux
 .tmux/*
+
+# Ubuntu base files
+.gnupg/
+.thunderbird/
+examples.desktop
+snap/
