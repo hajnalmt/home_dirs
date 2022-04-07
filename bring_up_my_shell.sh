@@ -30,17 +30,15 @@ if [ ! -d "$HOME/temp" ]; then
     mkdir "$HOME/temp"
 fi
 
-####################
-# Home Directories #
-####################
+##################
+# Home Directory #
+##################
 if [ ! -d "$HOME/home_dirs" ]; then
     git clone git@github.com:hajnalmt/home_dirs.git $HOME/home_dirs
+    cp -f $HOME/home_dirs/.bash_profile $HOME/.bash_profile
+    cp -f $HOME/home_dirs/.bashrc $HOME/.bashrc
+    cp -f $HOME/home_dirs/.tmux.conf $HOME/.tmux.conf    
 fi
-
-# Go back to the initial directory and exit
-cd $INITIAL_WORKING_DIR
-exit
-
 
 ###########
 # Plugins #
@@ -53,7 +51,7 @@ if [ ! -d "$HOME/.vim_runtime" ]; then
     sh $HOME/.vim_runtime/install_awesome_vimrc.sh
 
     # Copy my additional vim config to the awesome one.
-    cp $HOME/temp/vim/my_configs.vim $HOME/.vim_runtime/
+    cp $HOME/home_dirs/vim/my_configs.vim $HOME/.vim_runtime/
 fi
 
 # Tmux Plugin Manager
@@ -61,3 +59,7 @@ if [ ! -d "$HOME/.tmux" ]; then
     git clone https://github.com/tmux-plugins/tpm\
         $HOME/.tmux/plugins/tpm
 fi
+
+# Go back to the initial directory and exit
+cd $INITIAL_WORKING_DIR
+exit
