@@ -35,26 +35,8 @@ chmod 644 ~/.ssh/id_rsa.pub
 After your id_rsa.pub file has been added to your github account, then you
 are able to clone the repo out.
 
-I suggest cloning out the repo into a new directory and then moving
-everything to your home directory's root folder.
+Now if you are able to clone out this repository you can go with:
 
-```
-cd ~/
-git clone git@github.com:your_username/home_dirs.git
-mv ./home_dirs/* ./home_dirs/.* .
-rm -rf home_dirs/
-```
-
-For the mv command it's possible that you get some errors that say:
-```
-mv: stat './home_dirs/*' unsuccessfull: No such file or directory
-mv: stat './home_dirs/.*' unsuccessfull: No such file or directory
-```
-Don't bother with it, it will work anyway.
-
-That's all now you can checkout the branch of the distros you want,
-setup your distro on a new branch, or modify earliers!
-Have Fun!
 
 ## Nice to know
 I use vim as my default editor, so on the machine there should be vim and
