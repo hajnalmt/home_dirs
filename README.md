@@ -35,8 +35,11 @@ chmod 644 ~/.ssh/id_rsa.pub
 After your id_rsa.pub file has been added to your github account, then you
 are able to clone the repo out.
 
-Now if you are able to clone out this repository you can go with:
+From now on please call the bring up script from your terminal.
 
+```
+curl -S https://raw.githubusercontent.com/hajnalmt/home_dirs/master/bring_up_my_shell.sh | bash
+```
 
 ## Nice to know
 I use vim as my default editor, so on the machine there should be vim and
