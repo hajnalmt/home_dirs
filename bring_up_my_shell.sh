@@ -12,7 +12,7 @@
 ########
 # Init #
 ########
-INITIAL_WORKING_DIR = $(pwd)
+INITIAL_WORKING_DIR=$(pwd)
 # Go to HOME and at the end go back to current dir
 cd $HOME
 
